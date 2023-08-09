@@ -19,7 +19,7 @@ function Home() {
         })
       }
       <div className='home2'>
-      {DData.filter((item)=>(item.cat==='Hollywood') && (item.id===16) || (item.id===28) ).map((data,bolly)=>{
+      {DData.filter((item)=>((item.cat==='Hollywood') && ((item.id===16) || (item.id===28)) ).map((data,bolly)=>{
             return(
                 <>
                 <div className='Hcontainer' key={bolly}>
@@ -111,7 +111,7 @@ function Home() {
       }
       <div >
 
-      {DData.filter((item)=>(item.cat==='Technology') && (item.id==27)).map((data)=>{
+      {DData.filter((item)=>(item.cat==='Technology') && (item.id===27)).map((data)=>{
             return(
                 <>            
                 <img className='himg6' src={data.image} alt='Not Found'/>
