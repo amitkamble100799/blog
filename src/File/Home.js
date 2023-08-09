@@ -6,7 +6,9 @@ function Home() {
   return (
     <>
     <div className='homemain'>
-        {DData.filter((item)=>(item.cat==='Hollywood') && (item.id===70)).map((data,bolly)=>{
+      <div>
+        {
+        DData.filter((item)=>(item.cat==='Hollywood') && (item.id===70)).map((data,bolly)=>{
             return(
                 <>
               
@@ -18,17 +20,18 @@ function Home() {
             )
         })
       }
+      </div>
       <div className='home2'>
-      {DData.filter((item)=>((item.cat==='Hollywood') && ((item.id===16) || (item.id===28)) ).map((data,bolly)=>{
+      {DData.filter((item)=>((item.id===16)  ||  (item.id===28) )).map((data,bolly)=>{
             return(
-                <>
+              
                 <div className='Hcontainer' key={bolly}>
                 <img className='himg2' src={data.image} alt='Not Found'/>
                 </div>
-                </>
+               
             )
         })
-      
+      }
 </div>
     </div>
    
@@ -86,13 +89,13 @@ function Home() {
       }
         </div>
      
-   
+    </div>
     <div>
       <h1 className='b2'>Latest Article</h1>
       <div className='Hmlates'>
 <div className='latesArticle'>
   <div>
-{DData.filter((item)=>(item.cat==='Hollywood') && (item.id>=26)).map((data,holly)=>{
+{DData.filter((item)=>((item.cat==='Hollywood') && (item.id>=26))).map((data,holly)=>{
             return(
                 <>
               
@@ -111,7 +114,7 @@ function Home() {
       }
       <div >
 
-      {DData.filter((item)=>(item.cat==='Technology') && (item.id===27)).map((data)=>{
+      {DData.filter(((item)=>(item.id===27))).map((data)=>{
             return(
                 <>            
                 <img className='himg6' src={data.image} alt='Not Found'/>
