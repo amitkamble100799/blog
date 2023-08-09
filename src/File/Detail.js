@@ -1,9 +1,7 @@
-import { useState,useContext } from "react";
+import { useContext } from "react";
 import Avatar from '../img/Avatar.png'
 import { Store } from "./Datastore";
-import { Link,useParams } from "react-router-dom";
-import {GiHamburgerMenu} from 'react-icons/gi'
-import {RxCross2} from 'react-icons/rx'
+import {useParams } from "react-router-dom";
 import {AiTwotoneLike} from 'react-icons/ai'
 import {GrShareOption} from 'react-icons/gr'
 import {AiFillFacebook} from 'react-icons/ai'
