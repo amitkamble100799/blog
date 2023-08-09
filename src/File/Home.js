@@ -86,7 +86,7 @@ function Home() {
       }
         </div>
      
-    </div>
+   
     <div>
       <h1 className='b2'>Latest Article</h1>
       <div className='Hmlates'>
