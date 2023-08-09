@@ -20,7 +20,7 @@ const Datastore = (props)=>{
         description:'Although Akshay had made his entry into Bollywood with the 1991 film Saugandh',
         date:"Travel/August 5 2023",
         name:"Amith K",
-        fulldescription:`Rajiv Hari Om Bhatia (born 9 September 1967),[4] known professionally as Akshay Kumar , is an Indian-born naturalised Canadian actor and film producer who works in Hindi cinema. In over 30 years of acting, Kumar has appeared in over 100 films and has won several awards, including two National Film Awards and two Filmfare Awards. He received the Padma Shri, India's fourth-highest civilian honour, from the Government of India in 2009. Kumar is one of the most prolific actors in Indian cinema.[5][6] Forbes included Kumar in their lists of both highest-paid celebrities and highest-paid actors in the world from 2015 to 2020.`,
+        fulldescription:`Rajiv Hari Om Bhatia (born 9 September 1967),[4] known professionally as Akshay Kumar , is an Indian-born naturalised Canadian actor and film producer who works in Hindi cinema. In over 30 years of acting, Kumar has appeared in over 100 films and has won several awards, including two National Film Awards and two Filmfare Awards. He received the Padma Shri, India's fourth-highest civilian honour, from the Government of India in 2009. Kumar is one of the most prolific actors in Indian cinema.`,
         cat:"Bollywood"
      },
      {
