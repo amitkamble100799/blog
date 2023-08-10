@@ -10,7 +10,7 @@ const Datastore = (props)=>{
        description:'Bawaal under fire for ‘trivial’ portrayal',
        date:"Travel/August 5 2023",
        name:"Amith K",
-       fulldescription:"The Bollywood film Bawaal is facing criticism for its portrayal of the Holocaust, with a Jewish organisation, the Simon Wiesenthal Center, urging Amazon Prime to remove the film from its platform. The organisation contends that the movie trivialises the suffering and systematic murder of millions The Bollywood film Bawaal is facing criticism for its portrayal of the Holocaust, with a Jewish organisation, the Simon Wiesenthal Center, urging Amazon Prime to remove the film from its platform. The organisation contends that the movie trivialises the suffering and systematic murder of millions The Bollywood film Bawaal is facing criticism for its portrayal of the Holocaust, with a Jewish organisation, the Simon Wiesenthal Center, urging Amazon Prime to remove the film from its platform. The organisation contends that the movie trivialises the suffering and systematic murder of millions",
+       fulldescription:"The Bollywood film Bawaal is facing criticism for its portrayal of the Holocaust, with a Jewish organisation, the Simon Wiesenthal Center, urging Amazon Prime to remove the film from its platform. The organisation contends that the movie trivialises the suffering and systematic murder of millions The Bollywood film Bawaal is facing criticism for its portrayal of the Holocaust, with a Jewish organisation, the Simon Wiesenthal Center, urging Amazon Prime to remove the film from its platform.
        cat:"Bollywood"
     },
     {
